@@ -1,10 +1,18 @@
 body{
     background-color: black;
+   
 }
 nav{
     background: #020024;
 background: linear-gradient(90deg,rgb(5, 2, 58) 0%, rgb(85, 2, 2) 35%, rgb(180, 9, 9) 100%);
+ /* position: relative; */
 }
 a{
     color: white;
+}
+.card-footer:hover{
+ background: #020024;
+background: linear-gradient(90deg,rgb(5, 2, 58) 0%, rgb(85, 2, 2) 35%, rgb(180, 9, 9) 100%);
+color: white;
+cursor: pointer;
 }
